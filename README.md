@@ -1,3 +1,6 @@
+
+//Below is notes delivered from GitHub on the Theme chosen for the Portfolio Site. The information was automatically created by an external source and should not be attributed to this author.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/KayStorm/kaystorm.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
