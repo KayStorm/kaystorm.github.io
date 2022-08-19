@@ -1,3 +1,4 @@
+I have removed the Jekyl theme from the site to further show off my skills and cutomize the look of my site.
 
 //Below is notes delivered from GitHub on the Theme chosen for the Portfolio Site. The information was automatically created by an external source and should not be attributed to this author.
 
@@ -15,7 +16,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
