@@ -1,3 +1,5 @@
+8/24 - I am making small edits each day on the site to practice my coding skills. This is also allowing me to take my time figureing out what I want my final product to look like before I begin using the site openly for job applications and self-promotion.
+
 I have removed the Jekyl theme from the site to further show off my skills and cutomize the look of my site.
 
 //Below is notes delivered from GitHub on the Theme chosen for the Portfolio Site. The information was automatically created by an external source and should not be attributed to this author.
