@@ -1,45 +1,8 @@
+Kay Davis, Developer and EdTech Professional
+
+This project is the code base for my personal portfolio site. This site will serve as evidence of my skill as a developer, while also reflecting my passion for the education field.
+
+Currently this project is entirely HTML/CSS as I am still in the early stages of production. I also have projects using Java, SQL, JavaScript, and other technologies that I will include.
+
+PROJECT LOG
 8/24 - I am making small edits each day on the site to practice my coding skills. This is also allowing me to take my time figureing out what I want my final product to look like before I begin using the site openly for job applications and self-promotion.
-
-I have removed the Jekyl theme from the site to further show off my skills and cutomize the look of my site.
-
-//Below is notes delivered from GitHub on the Theme chosen for the Portfolio Site. The information was automatically created by an external source and should not be attributed to this author.
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/KayStorm/kaystorm.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KayStorm/kaystorm.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
