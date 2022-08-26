@@ -58,7 +58,7 @@ body {
   font-style: italic;
   font-variant: small-caps;
   text-transform: none;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   margin-right: auto;
   margin-left: auto;
