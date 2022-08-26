@@ -12,6 +12,35 @@ body {
   overflow-x: scroll;
   }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE6CC;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Georgia", sans-serif;
+  font-variant: small-caps;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #faf1e7;
+}
+
 .Headline{
   font-family: Georgia, serif;
   font-size: 16px;
@@ -46,6 +75,7 @@ body {
   border: 5px solid black;
   border-radius: 25px;
   }
+
 
 .Footer {
   font-family: Georgia, serif;
