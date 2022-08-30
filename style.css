@@ -76,6 +76,16 @@ li a:hover {
   border-radius: 25px;
   }
 
+.Twitter {
+  margin-right: 10px;
+}
+
+.GitHub {
+  margin-right: 10px;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
 
 .Footer {
   font-family: Georgia, serif;
