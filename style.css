@@ -4,9 +4,10 @@ body {
 	font-family: "Georgia", sans-serif;
 	display: flex;
 	align-items: center;
+  flex-direction: column;
 	justify-content: center;
 	height: 100vh;
-	overflow: hidden;
+	overflow: scroll;
 	margin: 0;
   overflow-y: scroll;
   overflow-x: scroll;
@@ -81,6 +82,12 @@ li a:hover {
   width: 50%;
   border: 3px solid black;
   padding: 10px;
+}
+
+.Social img {
+  height: 100px;
+  width: 100px;
+  box-align: center;
 }
 
 .Footer {
