@@ -78,16 +78,18 @@ li a:hover {
   }
 
 .Social {
-  margin-right: 10px;
+  margin-right: 20px;
   width: 50%;
   border: 3px solid black;
   padding: 10px;
+  z-index: 1;
 }
 
 .Social img {
   height: 100px;
   width: 100px;
   box-align: center;
+  padding: 5px;
 }
 
 .Footer {
