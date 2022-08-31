@@ -79,17 +79,24 @@ li a:hover {
 
 .Social {
   margin-right: 20px;
-  width: 50%;
-  border: 3px solid black;
+  margin-top: 20px;
+  width: 235px;
+  border-style: double;
+  border-width: medium;
+  border-color: #d15710 black;
   padding: 10px;
   z-index: 1;
+  background-color: black;
 }
 
 .Social img {
   height: 100px;
   width: 100px;
-  box-align: center;
   padding: 5px;
+  margin: 2px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 3px 3px white;
 }
 
 .Footer {
