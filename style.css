@@ -9,7 +9,7 @@ body {
 	justify-content: center;
 	height: 100vh;
 	overflow: scroll;
-	margin: 0;
+	margin: 1em;
   overflow-y: scroll;
   overflow-x: scroll;
   }
@@ -64,7 +64,6 @@ li a:hover {
   }  
 
   }  
-}
 
 .Headline{
   font-family: Georgia, serif;
@@ -75,7 +74,7 @@ li a:hover {
   font-weight: 700;
   text-decoration: none;
   position: relative;
-  top: 100px;
+  top: 150px;
   bottom: 30px;
   font-style: normal;
   font-variant: small-caps;
@@ -111,8 +110,8 @@ li a:hover {
   }
 
 .Bio img {
-  width: 450px;
-  height: 350px;
+  max-width: 70%;
+  height: auto;
   border-radius: 25px;
 }
 
