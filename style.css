@@ -166,3 +166,22 @@ li a:hover {
   text-align: center;
   padding: 20px;
 }
+
+.College {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color:black;
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.College img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 25px;
+}
