@@ -4,15 +4,15 @@ body {
   background-size: cover;
 	font-family: "Georgia", sans-serif;
   font-variant: small-caps
-	display: flex;
-	align-items: center;
-  flex-direction: column;
-	justify-content: center;
-	height: 100vh;
-	overflow: scroll;
-	margin: 1em;
-  overflow-y: scroll;
-  overflow-x: scroll;
+	display:flex;
+	align-items:center;
+  flex-direction:column;
+	justify-content:center;
+	height:100vh;
+	overflow:scroll;
+	margin:1em;
+  overflow-y:scroll;
+  overflow-x:scroll;
   }
 
 ul {
@@ -71,7 +71,7 @@ li a:hover {
   font-size: 20px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color:black
+  color:black;
   font-weight: 700;
   text-decoration: none;
   position: relative;
@@ -83,7 +83,6 @@ li a:hover {
   text-shadow: 1px 17px 8px #4A301F;
   padding: 20px;
   display: block;
-  vertical-align: top;
   z-index: 1;
   height: 200px;
   overflow: visible;
@@ -160,7 +159,7 @@ li a:hover {
   font-size: 18px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color:black
+  color:black;
   font-weight: 500;
   font-variant: small-caps;
   text-decoration: none;
