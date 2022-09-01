@@ -46,6 +46,26 @@ li a:hover {
   background-color: #faf1e7;
 }
 
+@media all and (max-width: 600px) {  
+    
+  ul {  
+    flex-wrap: wrap;  
+  }  
+    
+  ul > li {  
+    flex-basis: 50%;  
+  }
+
+}
+
+@media all and (max-width: 400px) {  
+  ul > li {  
+    flex-basis: 100%;  
+  }  
+
+  }  
+}
+
 .Headline{
   font-family: Georgia, serif;
   font-size: 20px;
