@@ -3,6 +3,7 @@ body {
 	background-image: linear-gradient(315deg, #d15710 0%, #efb572 100%);
   background-size: cover;
 	font-family: "Georgia", sans-serif;
+  font-variant: small-caps
 	display: flex;
 	align-items: center;
   flex-direction: column;
@@ -152,4 +153,17 @@ li a:hover {
   bottom: 0;
   margin-right: auto;
   margin-left: auto;
+}
+
+.ResumeIntro {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color:black
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
 }
