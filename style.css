@@ -26,6 +26,8 @@ ul {
   font-family: "Georgia", sans-serif;
   font-variant: small-caps;
   z-index: 1;
+  display: flex;
+  flex: 1;
 }
 
 li {
