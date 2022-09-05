@@ -69,7 +69,9 @@ li a:hover {
   ul > li {  
     flex-basis: 100%;  
   }  
-  
+  .Headline {
+    position: static;
+  }
   }  
 
 .Headline{
@@ -93,6 +95,7 @@ li a:hover {
   z-index: 1;
   height: 80px;
   overflow: visible;
+  line-height: 2.5em;
   }
 
 .Bio {
