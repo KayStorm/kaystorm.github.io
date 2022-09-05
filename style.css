@@ -185,10 +185,12 @@ li a:hover {
   word-spacing: 2px;
   color:black;
   font-weight: 500;
-  font-variant: small-caps;
   text-decoration: none;
   text-align: center;
   padding: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .College img {
@@ -197,19 +199,61 @@ li a:hover {
   border-radius: 25px;
 }
 
+#ASU {
+  background-color: #8e3909;
+  width: 70%;
+  padding: 15px;
+  border: 5px solid #8e3909;
+  color: #FFE6CC;
+  text-align: left;
+}
+
+#UNCW {
+  background-color: #FFE6CC;
+  width: 70%;
+  padding: 15px;
+  border: 5px solid #8e3909;
+  text-align: left;
+  color: #8e3909;
+}
+
+#CFCC {
+  background-color: #8e3909;
+  width: 70%;
+  padding: 15px;
+  border: 5px solid #8e3909;
+  color: #FFE6CC;
+  text-align: left;
+}
+
+#ECU {
+  background-color: #FFE6CC;
+  width: 70%;
+  padding: 15px;
+  border: 5px solid #8e3909;
+  text-align: left;
+  color: #8e3909;
+}
+
 .Teaching {
   font-family: Georgia, serif;
   font-size: 18px;
   letter-spacing: 2px;
-  word-spacing: 2px;
+  word-spacing: 3px;
   color:black;
   font-weight: 500;
-  font-variant: small-caps;
   text-decoration: none;
   text-align: center;
   padding: 20px;
-  background-image: url("images\NotebookPaper.jpg");
-  background-color: transparent;
-  height: 200px;
+  height: auto;
+  background-color: #8e3909;
+  width: 70%;
+  padding: 15px;
+  border: 5px solid #8e3909;
+  color: #FFE6CC;
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   z-index:1;
 }
