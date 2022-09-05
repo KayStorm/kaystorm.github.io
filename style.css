@@ -71,6 +71,8 @@ li a:hover {
   }  
   .Headline {
     position: static;
+    border-top: 1.5em;
+    border-bottom: 1.5em;
   }
   }  
 
