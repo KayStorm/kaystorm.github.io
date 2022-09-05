@@ -73,6 +73,7 @@ li a:hover {
     position: static;
     border-top: 1.5em;
     border-bottom: 1.5em;
+    
   }
   }  
 
@@ -94,7 +95,7 @@ li a:hover {
   padding: 20px;
   padding-bottom:45px;
   display: block;
-  z-index: 1;
+  z-index: 0;
   height: 80px;
   overflow: visible;
   line-height: 2.5em;
