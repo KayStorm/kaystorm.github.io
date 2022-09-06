@@ -184,7 +184,7 @@ li a:hover {
   padding: 20px;
 }
 
-.College {
+.Experience {
   font-family: Georgia, serif;
   font-size: 18px;
   letter-spacing: 2px;
@@ -199,13 +199,13 @@ li a:hover {
   margin-left: auto;
 }
 
-.College img {
+.Experience img {
   width: auto;
   height: 80px;
   border-radius: 25px;
 }
 
-#ASU {
+#DarkBlock {
   background-color: #8e3909;
   width: 70%;
   padding: 15px;
@@ -214,7 +214,7 @@ li a:hover {
   text-align: left;
 }
 
-#UNCW {
+#LightBlock {
   background-color: #FFE6CC;
   width: 70%;
   padding: 15px;
@@ -223,23 +223,6 @@ li a:hover {
   color: #8e3909;
 }
 
-#CFCC {
-  background-color: #8e3909;
-  width: 70%;
-  padding: 15px;
-  border: 5px solid #8e3909;
-  color: #FFE6CC;
-  text-align: left;
-}
-
-#ECU {
-  background-color: #FFE6CC;
-  width: 70%;
-  padding: 15px;
-  border: 5px solid #8e3909;
-  text-align: left;
-  color: #8e3909;
-}
 
 .Teaching {
   font-family: Georgia, serif;
