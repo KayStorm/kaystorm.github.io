@@ -74,7 +74,7 @@ li a:hover {
     margin-top: 100px;
     border-top: 1.5em;
     border-bottom: 1.5em;
-    font-size: 70%;
+    font-size: 15px;
   }
   }  
 
@@ -101,6 +101,7 @@ li a:hover {
   display: block;
   z-index: 0;
   height: 80px;
+  width: 100%;
   overflow: visible;
   line-height: 2.5em;
   }
