@@ -23,6 +23,7 @@ ul {
   background-color: #FFE6CC;
   position: fixed;
   top: 0;
+  margin-bottom: 50%;
   width: 100%;
   font-family: "Georgia", sans-serif;
   font-variant: small-caps;
