@@ -71,10 +71,10 @@ li a:hover {
   }  
   .Headline {
     position: static;
-    margin-top: 50%;
+    margin-top: 100px;
     border-top: 1.5em;
     border-bottom: 1.5em;
-    font-size:medium;
+    font-size: 70%;
   }
   }  
 
