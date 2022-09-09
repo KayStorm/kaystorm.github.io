@@ -65,4 +65,31 @@
 			alt="screen shot of data processing in Excel"
 		/>
 	</div>
+
+	<div id="DarkBlock" class="Experience">
+		<p>
+			A quick example of JavaScript, and a reminder for an important item on
+			your to-do list!<br />
+		</p>
+
+		<p>How long do you have to buy my next birthday present? <br /></p>
+		<script>
+			const today = new Date();
+			const birthday = new Date(1983, 08, 28, 3, 45, 00, 000);
+			birthday.setFullYear(today.getFullYear());
+			const msPerDay = 24 * 60 * 60 * 1000;
+			let daysLeft = (birthday.getTime() - today.getTime()) / msPerDay;
+			daysLeft = Math.round(daysLeft);
+
+			document.write("You have " + daysLeft + " days!");
+		</script>
+
+		<p>Better make it nice!</p>
+
+		<img
+			id="ProjectExample"
+			src="images\JS.png"
+			alt="screen shot of this JavaScript code in VS Code"
+		/>
+	</div>
 </body>
