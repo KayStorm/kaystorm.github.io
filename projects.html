@@ -78,30 +78,8 @@
 		</p>
 
 		<p>How long do you have to buy my next birthday present? <br /></p>
-		<script>
-			const today = new Date();
-			const birthday = new Date(1983, 08, 28, 3, 45, 00, 000);
-			birthday.setFullYear(today.getFullYear());
-			const msPerDay = 24 * 60 * 60 * 1000;
-			let daysLeft = (birthday.getTime() - today.getTime()) / msPerDay;
-			daysLeft = Math.round(daysLeft);
 
-			if (daysLeft > 0) {
-				document.write("You have " + daysLeft + " days!");
-			} else if ((daysLeft = 0)) {
-				document.write("Today is the day. Happy Birthday to me!");
-				//		} else (daysLeft < 0) {
-				//			const endOfYear = new Date(1983, 12, 31, 24, 60, 60, 999);
-				//			endOfYear.setFullYear(today.getFullYear());
-				//			const msPerDay = 24 * 60 * 60 * 1000;
-				//			let daysLeftThisYear =
-				//				(today.getTime() - endOfYear.getTime()) / msPerDay;
-				//			daysLeftThisYear = Math.round(daysLeftThisYear);
-				//			let updatedDaysLeft = daysLeft + daysLeftThisYear;
-
-				//			document.write("You have " + updatedDaysLeft + " days!");
-			}
-		</script>
+		<script type="text/javascript" src="documents\bdCalc.js"></script>
 
 		<p>Better make it nice!</p>
 
