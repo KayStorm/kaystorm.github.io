@@ -1,6 +1,6 @@
 //Opening
 console.log("Welcome! What is your name? ");
-let userName = prompt();
+var userName = prompt("Welcome! What is your name? ");
 console.log("Hello there, " + userName + "!");
 console.log("Please enjoy using this calculator!");
 
@@ -13,7 +13,9 @@ console.log(
 );
 
 console.log("Please select which option you want to try by entering a or b: ");
-let calChoice = prompt();
+let calChoice = prompt(
+	"Please select which option you want to try by entering a or b: "
+);
 
 if (calChoice == "a") {
 	var x = prompt("Enter a Value", "0");
@@ -198,24 +200,25 @@ if (calChoice == "a") {
 		var frequency = []; // array of frequency.
 		var maxFreq = 0; // holds the max frequency.
 		var modes = [];
-	
+
 		for (var i in numList) {
 			frequency[numList[i]] = (frequency[numList[i]] || 0) + 1; // increment frequency.
-	
-			if (frequency[numList[i]] > maxFreq) { // is this frequency > max so far ?
+
+			if (frequency[numList[i]] > maxFreq) {
+				// is this frequency > max so far ?
 				maxFreq = frequency[numList[i]]; // update max.
 			}
 		}
-	
+
 		for (var k in frequency) {
 			if (frequency[k] == maxFreq) {
 				modes.push(k);
 			}
 		}
-	
+
 		return modes;
 	}
-	
+
 	console.log(modeCalc(numList));
 
 	//working range
