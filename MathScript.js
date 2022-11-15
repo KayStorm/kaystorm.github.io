@@ -181,12 +181,20 @@ if (calChoice == "a") {
 
 	if (groupLength % 2 === 0) {
 		console.log("That means your list is even.");
-		var middleEven = numList[Math.floor((numList.length - 1) / 2)];
-		console.log("The middle number is the one after " + middleEven);
+		var almostMiddleLow = numList[Math.floor((numList.length - 1) / 2)];
+		var almostMiddleHigh = numList[Math.floor(numList.length / 2)];
+		console.log(
+			"The middle two numers are " +
+				almostMiddleLow +
+				" and " +
+				almostMiddleHigh
+		);
+		var medianCalc = (almostMiddleHigh + almostMiddleLow) / 2;
+		console.log("The median is " + medianCalc);
 	} else {
 		console.log("That means your list is odd.");
 		var middleOdd = numList[Math.floor(numList.length / 2)];
-		console.log("The middle number is " + middleOdd);
+		console.log("The median number is " + middleOdd);
 	}
 
 	//}
