@@ -1,5 +1,5 @@
 const today = new Date();
-const birthday = new Date(1983, 12, 28, 3, 45, 00, 000);
+const birthday = new Date(1983, 11, 28, 3, 45, 00, 000);
 birthday.setFullYear(today.getFullYear());
 const msPerDay = 24 * 60 * 60 * 1000;
 let daysLeft = (birthday.getTime() - today.getTime()) / msPerDay;
