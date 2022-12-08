@@ -29,5 +29,5 @@ if (negTest == 1) {
 	let updatedDaysLeft = birthday.getTime() - today.getFullYear();
 	updatedDaysLeft = Math.ceil(updatedDaysLeft / msPerDay);
 
-	document.write("You have " + updatedDaysLeft + " days!!");
+	document.write("You have " + updatedDaysLeft + " days!");
 }
