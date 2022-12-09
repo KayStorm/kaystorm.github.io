@@ -1,20 +1,22 @@
 //Opening
-console.log("Welcome! What is your name? ");
+document.write("Welcome! What is your name? ");
 var userName = prompt("Welcome! What is your name? ");
-console.log("Hello there, " + userName + "!");
-console.log("Please enjoy using this calculator!");
+document.write("Hello there, " + userName + "!");
+document.write("Please enjoy using this calculator!");
 
-console.log("I can do two sets of computations!");
-console.log(
+document.write("I can do two sets of computations!");
+document.write(
 	"Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you."
 );
-console.log(
+document.write(
 	"Option b: If you give me a list of numbers I can help you find mean, median, and mode"
 );
 
-console.log("Please select which option you want to try by entering a or b: ");
-let calChoice = prompt(
+document.write(
 	"Please select which option you want to try by entering a or b: "
+);
+let calChoice = prompt(
+	"I can do two sets of computations!  Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you.  Option b: If you give me a list of numbers I can help you find mean, median, and mode. ***Please select which option you want to try by entering a or b: "
 );
 
 if (calChoice == "a") {
@@ -24,7 +26,7 @@ if (calChoice == "a") {
 	var num2 = parseFloat(y);
 
 	//addition
-	console.log("   ~~Addition~~");
+	document.write("   ~~Addition~~");
 
 	let additionMessageOne = "If you add ";
 	let additionMessageTwo = x;
@@ -33,7 +35,7 @@ if (calChoice == "a") {
 	let additionMessageFive = "the answer is: ";
 	let additionAnswer = x + y;
 
-	console.log(
+	document.write(
 		additionMessageOne,
 		additionMessageTwo,
 		additionMessageThree,
@@ -52,7 +54,7 @@ if (calChoice == "a") {
 	let subtractionMessageFive = "the answer is: ";
 	let subtractionAnswer = x - y;
 
-	console.log(
+	document.write(
 		subtractionMessageOne,
 		subtractionMessageTwo,
 		subtractionMessageThree,
@@ -68,7 +70,7 @@ if (calChoice == "a") {
 	let revsubtractionMessageFive = "the answer is: ";
 	let revsubtractionAnswer = y - x;
 
-	console.log(
+	document.write(
 		revsubtractionMessageOne,
 		revsubtractionMessageTwo,
 		revsubtractionMessageThree,
@@ -78,7 +80,7 @@ if (calChoice == "a") {
 	);
 
 	//multiply
-	console.log("   ~~Multiplication~~");
+	document.write("   ~~Multiplication~~");
 
 	let multiplicationMessageOne = "If you multiply ";
 	let multiplicationMessageTwo = x;
@@ -87,7 +89,7 @@ if (calChoice == "a") {
 	let multiplicationMessageFive = "the answer is: ";
 	let multiplicationAnswer = x * y;
 
-	console.log(
+	document.write(
 		multiplicationMessageOne,
 		multiplicationMessageTwo,
 		multiplicationMessageThree,
@@ -97,7 +99,7 @@ if (calChoice == "a") {
 	);
 
 	//division
-	console.log("   ~~Division~~");
+	document.write("   ~~Division~~");
 
 	let divisionMessageOne = "If you divide ";
 	let divisionMessageTwo = x;
@@ -106,7 +108,7 @@ if (calChoice == "a") {
 	let divisionMessageFive = "the answer is: ";
 	let divisionAnswer = x / y;
 
-	console.log(
+	document.write(
 		divisionMessageOne,
 		divisionMessageTwo,
 		divisionMessageThree,
@@ -123,7 +125,7 @@ if (calChoice == "a") {
 	let revdivisionMessageFive = "the answer is: ";
 	let revdivisionAnswer = y / x;
 
-	console.log(
+	document.write(
 		revdivisionMessageOne,
 		revdivisionMessageTwo,
 		revdivisionMessageThree,
@@ -132,7 +134,7 @@ if (calChoice == "a") {
 		revdivisionAnswer
 	);
 
-	console.log("Have a great day!");
+	document.write("Have a great day!");
 } else {
 	var groupLength = prompt("How many numbers do you need to work with?");
 	var stringList = [];
@@ -145,14 +147,14 @@ if (calChoice == "a") {
 	//console.log(typeof numList[2]);
 
 	//working sort
-	console.log("   ~~Ordered List~~");
+	document.write("   ~~Ordered List~~");
 	const sortCalc = numList.sort();
-	console.log(sortCalc);
+	document.write(sortCalc);
 
 	//working min/max
-	console.log("   ~~Minimum & Maximum~~");
-	console.log("The smallest number is: " + Math.min.apply(Math, numList));
-	console.log("The largest number is: " + Math.max.apply(Math, numList));
+	document.write("   ~~Minimum & Maximum~~");
+	document.write("The smallest number is: " + Math.min.apply(Math, numList));
+	document.write("The largest number is: " + Math.max.apply(Math, numList));
 
 	//working mean
 
@@ -163,38 +165,38 @@ if (calChoice == "a") {
 			initialValue
 		);
 
-		console.log("   ~~Sum~~");
-		console.log(sumWithInitial);
+		document.write("   ~~Sum~~");
+		document.write(sumWithInitial);
 
 		const mean = sumWithInitial / numList.length;
 
-		console.log("   ~~Mean~~");
-		console.log(mean);
+		document.write("   ~~Mean~~");
+		document.write(mean);
 	}
-	console.log(meanCalc(numList));
+	document.write(meanCalc(numList));
 
 	//half working median
-	console.log("   ~~Median~~");
+	document.write("   ~~Median~~");
 
 	//function medianCalc () {
-	console.log("There are " + groupLength + " numbers in your list.");
+	document.write("There are " + groupLength + " numbers in your list.");
 
 	if (groupLength % 2 === 0) {
-		console.log("That means your list is even.");
+		document.write("That means your list is even.");
 		var almostMiddleLow = numList[Math.floor((numList.length - 1) / 2)];
 		var almostMiddleHigh = numList[Math.floor(numList.length / 2)];
-		console.log(
+		document.write(
 			"The middle two numers are " +
 				almostMiddleLow +
 				" and " +
 				almostMiddleHigh
 		);
 		var medianCalc = (almostMiddleHigh + almostMiddleLow) / 2;
-		console.log("The median is " + medianCalc);
+		document.write("The median is " + medianCalc);
 	} else {
-		console.log("That means your list is odd.");
+		document.write("That means your list is odd.");
 		var middleOdd = numList[Math.floor(numList.length / 2)];
-		console.log("The median number is " + middleOdd);
+		document.write("The median number is " + middleOdd);
 	}
 
 	//}
@@ -202,7 +204,7 @@ if (calChoice == "a") {
 	//console.log(medianCalc);
 
 	//almost working mode
-	console.log("   ~~Mode~~");
+	document.write("   ~~Mode~~");
 
 	function modeCalc(numList) {
 		var frequency = []; // array of frequency.
@@ -227,10 +229,10 @@ if (calChoice == "a") {
 		return modes;
 	}
 
-	console.log(modeCalc(numList));
+	document.write(modeCalc(numList));
 
 	//working range
-	console.log("   ~~Range~~");
+	document.write("   ~~Range~~");
 	const range = Math.max.apply(Math, numList) - Math.min.apply(Math, numList);
-	console.log(range);
+	document.write(range);
 }
