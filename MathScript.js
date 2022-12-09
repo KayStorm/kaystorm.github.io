@@ -29,7 +29,9 @@ if (calChoice == "a") {
 	//addition
 	document.write("   ~~Addition~~");
 	document.write("<br>");
-	document.write("If you add " + x + " by " + y + " the answer is: " + (x + y));
+	document.write(
+		"If you add " + x + " by " + y + " the answer is: " + (num1 + num2)
+	);
 	document.write("<br>");
 	document.write("<br>");
 
