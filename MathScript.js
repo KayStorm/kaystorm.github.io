@@ -1,5 +1,5 @@
 //Opening
-document.write("Welcome! What is your name? ");
+/*document.write("Welcome! What is your name? ");
 var userName = prompt("Welcome! What is your name? ");
 document.write("Hello there, " + userName + "!");
 document.write("Please enjoy using this calculator!");
@@ -15,6 +15,7 @@ document.write(
 document.write(
 	"Please select which option you want to try by entering a or b: "
 );
+*/
 let calChoice = prompt(
 	"I can do two sets of computations!  Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you.  Option b: If you give me a list of numbers I can help you find mean, median, and mode. ***Please select which option you want to try by entering a or b: "
 );
@@ -27,112 +28,51 @@ if (calChoice == "a") {
 
 	//addition
 	document.write("   ~~Addition~~");
-
-	let additionMessageOne = "If you add ";
-	let additionMessageTwo = x;
-	let additionMessageThree = "by ";
-	let additionMessageFour = y;
-	let additionMessageFive = "the answer is: ";
-	let additionAnswer = x + y;
-
-	document.write(
-		additionMessageOne,
-		additionMessageTwo,
-		additionMessageThree,
-		additionMessageFour,
-		additionMessageFive,
-		additionAnswer
-	);
+	document.write("<br>");
+	document.write("If you add " + x + " by " + y + " the answer is: " + (x + y));
+	document.write("<br>");
+	document.write("<br>");
 
 	//subtraction
-	console.log("   ~~Subtraction~~");
+	document.write("   ~~Subtraction~~");
 
-	let subtractionMessageOne = "If you subtract ";
-	let subtractionMessageTwo = x;
-	let subtractionMessageThree = "by ";
-	let subtractionMessageFour = y;
-	let subtractionMessageFive = "the answer is: ";
-	let subtractionAnswer = x - y;
+	document.write("<br>");
+	document.write(
+		"If you subtract " + x + " from " + y + " the answer is: " + (x - y)
+	);
+	document.write("<br>");
 
 	document.write(
-		subtractionMessageOne,
-		subtractionMessageTwo,
-		subtractionMessageThree,
-		subtractionMessageFour,
-		subtractionMessageFive,
-		subtractionAnswer
+		"If you subtract " + y + " from " + x + " the answer is: " + (y - x)
 	);
-
-	let revsubtractionMessageOne = "If you subtract ";
-	let revsubtractionMessageTwo = y;
-	let revsubtractionMessageThree = "by ";
-	let revsubtractionMessageFour = x;
-	let revsubtractionMessageFive = "the answer is: ";
-	let revsubtractionAnswer = y - x;
-
-	document.write(
-		revsubtractionMessageOne,
-		revsubtractionMessageTwo,
-		revsubtractionMessageThree,
-		revsubtractionMessageFour,
-		revsubtractionMessageFive,
-		revsubtractionAnswer
-	);
+	document.write("<br>");
+	document.write("<br>");
 
 	//multiply
 	document.write("   ~~Multiplication~~");
-
-	let multiplicationMessageOne = "If you multiply ";
-	let multiplicationMessageTwo = x;
-	let multiplicationMessageThree = "by ";
-	let multiplicationMessageFour = y;
-	let multiplicationMessageFive = "the answer is: ";
-	let multiplicationAnswer = x * y;
+	document.write("<br>");
 
 	document.write(
-		multiplicationMessageOne,
-		multiplicationMessageTwo,
-		multiplicationMessageThree,
-		multiplicationMessageFour,
-		multiplicationMessageFive,
-		multiplicationAnswer
+		"If you multiply " + x + " by " + y + " the answer is: " + x * y
 	);
+	document.write("<br>");
+	document.write("<br>");
 
 	//division
 	document.write("   ~~Division~~");
-
-	let divisionMessageOne = "If you divide ";
-	let divisionMessageTwo = x;
-	let divisionMessageThree = "by ";
-	let divisionMessageFour = y;
-	let divisionMessageFive = "the answer is: ";
-	let divisionAnswer = x / y;
+	document.write("<br>");
 
 	document.write(
-		divisionMessageOne,
-		divisionMessageTwo,
-		divisionMessageThree,
-		divisionMessageFour,
-		divisionMessageFive,
-		divisionAnswer
+		"If you divide " + x + " by " + y + " the answer is: " + x / y
 	);
+	document.write("<br>");
 
 	//reverse division
-	let revdivisionMessageOne = "If you divide ";
-	let revdivisionMessageTwo = y;
-	let revdivisionMessageThree = "by ";
-	let revdivisionMessageFour = x;
-	let revdivisionMessageFive = "the answer is: ";
-	let revdivisionAnswer = y / x;
-
 	document.write(
-		revdivisionMessageOne,
-		revdivisionMessageTwo,
-		revdivisionMessageThree,
-		revdivisionMessageFour,
-		revdivisionMessageFive,
-		revdivisionAnswer
+		"If you divide " + y + " by " + x + " the answer is: " + y / x
 	);
+	document.write("<br>");
+	document.write("<br>");
 
 	document.write("Have a great day!");
 } else {
@@ -148,13 +88,18 @@ if (calChoice == "a") {
 
 	//working sort
 	document.write("   ~~Ordered List~~");
+	document.write("<br>");
 	const sortCalc = numList.sort();
 	document.write(sortCalc);
+	document.write("<br>");
 
 	//working min/max
 	document.write("   ~~Minimum & Maximum~~");
+	document.write("<br>");
 	document.write("The smallest number is: " + Math.min.apply(Math, numList));
+	document.write("<br>");
 	document.write("The largest number is: " + Math.max.apply(Math, numList));
+	document.write("<br>");
 
 	//working mean
 
@@ -166,23 +111,31 @@ if (calChoice == "a") {
 		);
 
 		document.write("   ~~Sum~~");
+		document.write("<br>");
 		document.write(sumWithInitial);
+		document.write("<br>");
 
 		const mean = sumWithInitial / numList.length;
 
 		document.write("   ~~Mean~~");
+		document.write("<br>");
 		document.write(mean);
+		document.write("<br>");
 	}
 	document.write(meanCalc(numList));
+	document.write("<br>");
 
 	//half working median
 	document.write("   ~~Median~~");
+	document.write("<br>");
 
 	//function medianCalc () {
 	document.write("There are " + groupLength + " numbers in your list.");
+	document.write("<br>");
 
 	if (groupLength % 2 === 0) {
 		document.write("That means your list is even.");
+		document.write("<br>");
 		var almostMiddleLow = numList[Math.floor((numList.length - 1) / 2)];
 		var almostMiddleHigh = numList[Math.floor(numList.length / 2)];
 		document.write(
@@ -191,12 +144,16 @@ if (calChoice == "a") {
 				" and " +
 				almostMiddleHigh
 		);
+		document.write("<br>");
 		var medianCalc = (almostMiddleHigh + almostMiddleLow) / 2;
 		document.write("The median is " + medianCalc);
+		document.write("<br>");
 	} else {
 		document.write("That means your list is odd.");
+		document.write("<br>");
 		var middleOdd = numList[Math.floor(numList.length / 2)];
 		document.write("The median number is " + middleOdd);
+		document.write("<br>");
 	}
 
 	//}
@@ -205,6 +162,7 @@ if (calChoice == "a") {
 
 	//almost working mode
 	document.write("   ~~Mode~~");
+	document.write("<br>");
 
 	function modeCalc(numList) {
 		var frequency = []; // array of frequency.
@@ -230,9 +188,12 @@ if (calChoice == "a") {
 	}
 
 	document.write(modeCalc(numList));
+	document.write("<br>");
 
 	//working range
 	document.write("   ~~Range~~");
+	document.write("<br>");
 	const range = Math.max.apply(Math, numList) - Math.min.apply(Math, numList);
 	document.write(range);
+	document.write("<br>");
 }
