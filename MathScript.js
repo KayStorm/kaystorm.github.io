@@ -196,4 +196,7 @@ if (calChoice == "a") {
 	const range = Math.max.apply(Math, numList) - Math.min.apply(Math, numList);
 	document.write(range);
 	document.write("<br>");
+	document.write("<br>");
+
+	document.write("Have a great day!");
 }
