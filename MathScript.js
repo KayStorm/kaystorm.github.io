@@ -4,17 +4,6 @@ var userName = prompt("Welcome! What is your name? ");
 document.write("Hello there, " + userName + "!");
 document.write("Please enjoy using this calculator!");
 
-document.write("I can do two sets of computations!");
-document.write(
-	"Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you."
-);
-document.write(
-	"Option b: If you give me a list of numbers I can help you find mean, median, and mode"
-);
-
-document.write(
-	"Please select which option you want to try by entering a or b: "
-);
 */
 let calChoice = prompt(
 	"I can do two sets of computations!  Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you.  Option b: If you give me a list of numbers I can help you find mean, median, and mode. ***Please select which option you want to try by entering a or b: "
