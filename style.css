@@ -258,5 +258,6 @@ li a:hover {
 }
 
 #Calculator {
-  width: 70vw;
+  word-wrap:break-word;
+
 }
