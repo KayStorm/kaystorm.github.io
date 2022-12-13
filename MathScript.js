@@ -80,7 +80,8 @@ if (calChoice == "a") {
 	//working sort
 	document.write("   ~~Ordered List~~");
 	document.write("<br>");
-	const sortCalc = numList.sort();
+	//const sortCalc = numList.sort();
+	sortCalc = numList.sort((a, b) => a - b);
 	document.write(sortCalc);
 	document.write("<br>");
 
