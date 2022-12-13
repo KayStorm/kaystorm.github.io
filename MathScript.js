@@ -80,9 +80,9 @@ if (calChoice == "a") {
 	//working sort
 	document.write("   ~~Ordered List~~");
 	document.write("<br>");
-	//const sortCalc = numList.sort();
 	sortCalc = numList.sort((a, b) => a - b);
-	document.write(sortCalc);
+	var sortCalcWithSpaces = sortCalc.join(", ");
+	document.write(sortCalcWithSpaces);
 	document.write("<br>");
 
 	//working min/max
