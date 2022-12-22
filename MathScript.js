@@ -6,7 +6,7 @@ document.write("Please enjoy using this calculator!");
 
 */
 let calChoice = prompt(
-	"I can do two sets of computations!  Option a: If you give me two numbers, I can add, subtract, multiple and divide them for you.  Option b: If you give me a list of numbers I can help you find mean, median, and mode. ***Please select which option you want to try by entering a or b: "
+	"I can do two sets of computations!  OPTION A: Input two numbers - I will compute addition, subtraction, multiplication, division, and exponents.  OPTION B: Input how many numbers you are working with, then input the numbers you are working with - I will compute ordering, mean, median, mode, and range.  ***Please select which option you want to try by entering a or b: "
 );
 
 if (calChoice == "a") {
@@ -62,6 +62,15 @@ if (calChoice == "a") {
 	document.write(
 		"If you divide " + y + " by " + x + " the answer is: " + y / x
 	);
+	document.write("<br>");
+
+	document.write("   ~~Exponents~~");
+	document.write("<br>");
+	document.write("<br>");
+
+	document.write(x + " to the power of " + y + " is: " + x ** y);
+	document.write("<br>");
+	document.write(y + " to the power of " + x + " is: " + y ** x);
 	document.write("<br>");
 	document.write("<br>");
 
