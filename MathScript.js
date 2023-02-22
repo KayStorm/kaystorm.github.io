@@ -199,5 +199,5 @@ if (calChoice == "a") {
 	document.write("<br>");
 	document.write("<br>");
 
-	document.write("Have a great day!");
+	document.write("Have an outstanding day!");
 }
