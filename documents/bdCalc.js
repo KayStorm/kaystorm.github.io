@@ -1,5 +1,5 @@
 const today = new Date();
-const birthday = new Date(2023, 08, 28, 3, 45, 00, 000);
+const birthday = new Date(currentyear, 08, 28, 3, 45, 00, 000);
 //birthday.setFullYear(today.getFullYear());
 const msPerDay = 24 * 60 * 60 * 1000;
 let daysLeft = (birthday.getTime() - today.getTime()) / msPerDay;
@@ -26,8 +26,9 @@ if (negTest == 1) {
 	let updatedDaysLeft = daysLeft + daysLeftThisYear;
 	*/
 
-	let updatedDaysLeft = birthday.getTime() - today.getFullYear();
-	updatedDaysLeft = Math.ceil(updatedDaysLeft / msPerDay);
-
+	const nextBirthday = new Date(currentYear + 1, 08, 28, 3, 45, 00, 000);
+	let updatedDaysLeft = (nextBirthday.getTime() - today.getTime()) / msPerDay;
+	updatedDaysLeft = Math.ceil(updatedDaysLeft);
+	
 	document.write("You have " + updatedDaysLeft + " days!");
 }
