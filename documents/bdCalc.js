@@ -17,15 +17,6 @@ negTest = Math.sign(daysLeft);
 if (negTest == 1) {
 	document.write("You have " + daysLeft + " days!");
 } else {
-	/*
-	const endOfYear = new Date(1983, 12, 31, 24, 60, 60, 999);
-	endOfYear.setFullYear(today.getFullYear());
-	const msPerDay = 24 * 60 * 60 * 1000;
-	let daysLeftThisYear = (today.getTime() - endOfYear.getTime()) / msPerDay;
-	daysLeftThisYear = Math.round(daysLeftThisYear);
-	let updatedDaysLeft = daysLeft + daysLeftThisYear;
-	*/
-
 	const nextBirthday = new Date(currentYear + 1, 08, 28, 3, 45, 00, 000);
 	let updatedDaysLeft = (nextBirthday.getTime() - today.getTime()) / msPerDay;
 	updatedDaysLeft = Math.ceil(updatedDaysLeft);
