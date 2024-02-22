@@ -1,3 +1,13 @@
+/*
+Color Scheme (dark-light) 
+#0E060B
+#532732
+#92534F
+#8DA8B9
+#CFD3DE
+*/
+
+
 body {
 	background-color: #532732;
 	background-image: linear-gradient(315deg, #532732 0%, #92534F 100%);
