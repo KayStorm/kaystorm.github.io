@@ -1,6 +1,6 @@
 body {
-	background-color: #1F564A;
-	background-image: linear-gradient(315deg, #1F564A 0%, #3C9F9C 100%);
+	background-color: #532732;
+	background-image: linear-gradient(315deg, #532732 0%, #92534F 100%);
   background-size: cover;
 	font-family: "Georgia", sans-serif;
   line-height: 1.5em;
@@ -20,7 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #78BDC9;
+  background-color: #8DA8B9;
   position: fixed;
   top: 0;
   padding-bottom: 2px;
@@ -45,7 +45,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #C2DAE5;
+  background-color: #CFD3DE;
 }
 
 @media all and (max-width: 600px) {  
@@ -89,12 +89,12 @@ li a:hover {
   position: relative;
   top: 0;
   bottom: 30px;
-  background-color: #78BDC9;
+  background-color: #8DA8B9;
   background-size: 100% 100%;
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
-  text-shadow: 1px 7px 8px #040B08;
+  text-shadow: 1px 7px 8px #0E060B;
   text-align: center;
   padding: 20px;
   padding-bottom:45px;
@@ -111,14 +111,14 @@ li a:hover {
   font-size: 14px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color:#78BDC9;
+  color:#8DA8B9;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  background-color: #1F564A;
+  background-color: #532732;
   width: 70%;
   padding: 15px;
-  border: 5px solid #78BDC9;
+  border: 5px solid #8DA8B9;
   border-radius: 25px;
   display: block;
   margin-left: auto;
@@ -141,7 +141,7 @@ li a:hover {
   width: 237px;
   border-style: double;
   border-width: medium;
-  border-color: #1F564A black;
+  border-color: #532732 black;
   padding: 10px;
   z-index: 0;
   background-color: black;
@@ -210,25 +210,25 @@ li a:hover {
 }
 
 #DarkBlock {
-  background-color: #1F564A;
+  background-color: #532732;
   width: 70%;
   padding: 15px;
-  border: 5px solid #1F564A;
-  color: #78BDC9;
+  border: 5px solid #532732;
+  color: #8DA8B9;
   text-align: left;
 }
 
 #LightBlock {
-  background-color: #78BDC9;
+  background-color: #8DA8B9;
   width: 70%;
   padding: 15px;
-  border: 5px solid #78BDC9;
+  border: 5px solid #8DA8B9;
   text-align: left;
   color: #002751;
 }
 
 #LightBlockCenteredText {
-  background-color: #78BDC9;
+  background-color: #8DA8B9;
   width: 70%;
   padding: 15px;
   border: 5px solid #002751;
@@ -263,5 +263,5 @@ li a:hover {
   position: relative;
   align-content: center;
   border: 15px;
-  border-color: #3C9F9C;
+  border-color: #92534F;
 }
