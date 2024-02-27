@@ -7,6 +7,7 @@ Color Scheme (dark-light)
 #CFD3DE
 
 #dfebf2 (near-white text)
+#041c36 (near-black text)
 */
 
 body {
@@ -232,7 +233,7 @@ li a:hover {
 	padding: 15px;
 	border: 5px solid #8da8b9;
 	text-align: left;
-	color: #002751;
+	color: #041c36;
 }
 
 #LightBlockCenteredText {
